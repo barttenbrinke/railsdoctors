@@ -179,10 +179,11 @@ a:hover {color:#ff9000;}
 	margin:50px 0 0 0;
 	background:url(../images/footer-bg.png) bottom left repeat-x;
 }
-.inner {width:960px;margin:0 auto;padding:40px 0 0 0;}
+.inner {width:960px;margin:0 auto;padding:40px 0 0 0;text-decoration:none; }
 #footer img, #footer p {margin:0 53px 10px 0; width:200px;float:left}
 
-.inner p a {text-decoration:none;}
+.inner p a {border-bottom:0px;}
+.inner p a:hover {border-bottom:1px solid;}
 
 .credits {margin:35px 0 0 0;font-size:13px}
 .credits a {text-decoration:none;}
