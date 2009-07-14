@@ -51,6 +51,7 @@ blockquote, q {
 }
 
 .left {float:left}
+.middle {float:left;padding-left:30px;}
 .right {float:right;margin-right:0!important;}
 	
 .clearfix:after {
