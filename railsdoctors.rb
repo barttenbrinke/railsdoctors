@@ -1,5 +1,5 @@
 require 'rubygems'
-require 'Haml'
+require 'haml'
 require 'sinatra'
 
 get '/' do
