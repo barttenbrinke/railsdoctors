@@ -53,6 +53,7 @@ blockquote, q {
 .left {float:left}
 .middle {float:left;padding-left:30px;}
 .right {float:right;margin-right:0!important;}
+.no_underline_text{margin_bottom: 0px; text-align: right;}
 	
 .clearfix:after {
 	content: ".";
@@ -141,7 +142,7 @@ a:hover {color:#ff9000;}
 
 #nav li {float:left;margin:0 72px 0 0;}
 #nav li a {text-decoration:none;padding:3px 10px;border:none;}
-#nav li#first a {padding-left:0}
+#nav li#first a {padding-left:30px;}
 	
 
 /*--- Header ---*/
@@ -159,6 +160,13 @@ a:hover {color:#ff9000;}
 	padding:10px 0 0 0;
 	background:url(../images/box-bg.png) top left repeat-x
 }
+
+.underline {
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+	border-bottom: 1px solid #fff;
+}
+
 .small {width:300px;}
 .big {width:630px;}
 
