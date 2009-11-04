@@ -43,11 +43,7 @@ get '/blog.html' do
     { :title => 'Lightning talk at Euruko',
       :date => '2009-05-10',
       :author => 'Bart',
-<<<<<<< HEAD:railsdoctors.rb
       :content => '<a href="http://euruko2009.org/">Euruko 2009</a> was awesome. A lot of inspirational talks about cool ways of using the power of ruby. After showing some people Request-Log-Analyzer they got so excited, they got me to enter it as a lightning talk. See the result <a href="http://blip.tv/file/2599476">here</a>. Big thanks goes out to the origanization!'
-=======
-      :content => '<a href="http://euruko2009.org/">Euruko 2009</a> was awesome. A lot of inspirational talks about cool ways of using the power of ruby. After showing some people Request-Log-Analyzer they got so excited, they got me to enter it as a lightning talk. See the result <a href="http://blip.tv/file/2599476">here</a>. Big thanks go out to the origanization!'
->>>>>>> 407a270b297b5e6ed3c50899942e0535436eb2e1:railsdoctors.rb
     },
   ]
   
