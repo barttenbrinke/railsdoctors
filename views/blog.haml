@@ -1,0 +1,11 @@
+.box
+  %h3 &nbsp;
+  .clearfix
+  .sidenote{:class => "left small"}
+    %p{:class => 'o'} Request Log Analyzer Blog
+  .right{:class => "big"}
+    - @blog_items.each do |item|
+      %p{:class => "right no_underline_text"}= "<strong>#{item[:date]}<br/>#{item[:author]}</strong>"
+      %h3= item[:title]
+      .clearfix
+      %p{:class => 'underline'}= item[:content]
