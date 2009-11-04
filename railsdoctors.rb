@@ -38,7 +38,12 @@ get '/blog.html' do
     { :title => 'Top 100 Github',
       :date => '2009-11-10',
       :author => 'Willem',
-      :content => 'We have reached the top 100 watchers on github! Special thanks to the <a href="http://www.eppsteins.net/github/watchers.html">Github Project Watcher Throw</a>.'
+      :content => 'We have reached the top 100 watchers on github! Special thanks to the <a href="http://www.eppsteins.net/github/watchers.html">Github Project Watcher Throwdown</a>.'
+    },
+    { :title => 'Munin plugins for rails',
+      :date => '2009-08-05',
+      :author => 'Bart',
+      :content => 'I have written a small set of scripts to effectively monitor rails apps through munin. The <a href="http://github.com/barttenbrinke/munin-plugins-rails/">code</a> and the <a href="http://barttenbrinke.github.com/munin-plugins-rails/">pictures</a> can be found on github.'
     },
     { :title => 'Lightning talk at Euruko',
       :date => '2009-05-10',
