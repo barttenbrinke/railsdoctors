@@ -36,9 +36,14 @@ get '/blog.html' do
       :content => '<a href="http://scoutapp.com/">Scout</a> is now offering rails monitoring through the request-log-analyzer gem. Statistics from rla are gathered and passed on to scout through a <a href="http://scoutapp.com/plugin_urls/181-ruby-on-rails-monitoring">plugin</a>.'
     },
     { :title => 'Top 100 Github',
-      :date => '2009-11-10',
+      :date => '2009-10-10',
       :author => 'Willem',
       :content => 'We have reached the top 100 watchers on github! Special thanks to the <a href="http://www.eppsteins.net/github/watchers.html">Github Project Watcher Throwdown</a>.'
+    },
+    { :title => 'Railsenvy podcast features request-log-analyzer',
+      :date => '2009-10-02',
+      :author => 'Willem',
+      :content => 'Jason from Railsenvy did an excelent podcast on request-log-analyzer. Listen to it at <a href="http://railsenvy.com/2009/10/02/episode-094">Railsenvy podcast</a>.'
     },
     { :title => 'Munin plugins for rails',
       :date => '2009-08-05',
