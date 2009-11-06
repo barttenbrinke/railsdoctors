@@ -40,10 +40,10 @@ get '/blog.html' do
       :author => 'Willem',
       :content => 'We have reached the top 100 watchers on github! Special thanks to the <a href="http://www.eppsteins.net/github/watchers.html">Github Project Watcher Throwdown</a>.'
     },
-    { :title => 'Railsenvy podcast features request-log-analyzer',
+    { :title => 'Railsenvy podcast features Request-Log-Analyzer',
       :date => '2009-10-02',
       :author => 'Willem',
-      :content => 'Jason from Railsenvy did an excelent podcast on request-log-analyzer. Listen to it at <a href="http://railsenvy.com/2009/10/02/episode-094">Railsenvy podcast</a>.'
+      :content => 'Jason from Railsenvy did an excelent podcast on request-log-analyzer. Listen to it at <a href="http://railsenvy.com/2009/10/02/episode-094">railsenvy</a>.'
     },
     { :title => 'Munin plugins for rails',
       :date => '2009-08-05',
@@ -53,7 +53,7 @@ get '/blog.html' do
     { :title => 'Lightning talk at Euruko',
       :date => '2009-05-10',
       :author => 'Bart',
-      :content => '<a href="http://euruko2009.org/">Euruko 2009</a> was awesome. A lot of inspirational talks about cool ways of using the power of ruby. After showing some people Request-Log-Analyzer they got so excited, they got me to enter it as a lightning talk. See the result <a href="http://blip.tv/file/2599476">here</a>. Big thanks goes out to the origanization!'
+      :content => '<a href="http://euruko2009.org/">Euruko 2009</a> was awesome. A lot of inspirational talks about cool ways of using the power of ruby. After showing some people Request-Log-Analyzer they got so excited, they got me to enter it as a lightning talk. See the result <a href="http://blip.tv/file/2599476">here</a>. Big thanks goes out to the organization!'
     },
   ]
   
