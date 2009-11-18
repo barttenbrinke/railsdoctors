@@ -20,6 +20,11 @@ get '/blog.html' do
   @title = "Railsdoctors - Blog"
   @tagline = '<span class="o">&quot;</span>interesting<br/><span class="o">stuff</span><br/>gets put here<span class="o">&quot;</span>'
   @blog_items = [
+    { :title => 'Request-Log-Analyzer 1.5.0 released',
+      :date => '2009-11-18',
+      :author => 'Willem',
+      :content => 'We just released version 1.5.0 of request-log-analyzer. <a href="http://wiki.github.com/wvanbergen/request-log-analyzer/changelog">New features</a> include support for the MySQL slow query log, and autodetection of the current file format. Run <code>gem update request-log-analyzer</code> to upgrade to the new version.'
+    },
     { :title => 'Request-Log-Analyzer talk at Ruby En Rails 2009',
       :date => '2009-10-31',
       :author => 'Bart',
