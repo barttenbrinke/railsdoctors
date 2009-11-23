@@ -20,6 +20,11 @@ get '/blog.html' do
   @title = "Railsdoctors - Blog"
   @tagline = '<span class="o">&quot;</span>interesting<br/><span class="o">stuff</span><br/>gets put here<span class="o">&quot;</span>'
   @blog_items = [
+    { :title => 'RailsEnvy Podcast',
+      :date => '2009-11-20',
+      :author => 'Bart',
+      :content => 'This is the first time we have ever mentioned it on the show. Listen to the <a href="http://railsenvy.com/2009/11/20/episode-101">Rails Envy Podcast here</a>.'
+    },
     { :title => 'Request-Log-Analyzer 1.5.0 released',
       :date => '2009-11-18',
       :author => 'Willem',
