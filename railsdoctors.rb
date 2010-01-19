@@ -20,6 +20,11 @@ get '/blog.html' do
   @title = "Railsdoctors - Blog"
   @tagline = '<span class="o">&quot;</span>interesting<br/><span class="o">stuff</span><br/>gets put here<span class="o">&quot;</span>'
   @blog_items = [
+    { :title => 'Request-Log-Analyzer 1.6.0 released',
+      :date => '2010-01-12',
+      :author => 'Willem',
+      :content => 'Just released a new version of request-log-analyzer. It now supports logs created by Delayed::Job and PostgreSQL. Run <code>gem install request-log-analyzer</code> to install or update.'
+    },
     { :title => 'RailsEnvy Podcast',
       :date => '2009-11-20',
       :author => 'Bart',
