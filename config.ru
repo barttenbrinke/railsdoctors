@@ -1,2 +1,2 @@
-require 'railsdoctors'
+require './railsdoctors'
 run Sinatra::Application
