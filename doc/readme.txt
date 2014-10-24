@@ -1,5 +1,0 @@
-- RLA Talk at Ruby en Rails 2009 
-- MacRuby uses RLA as testcase
-- Scout uses RLA
-- Top 100 github gems
-- RLA Talk at Euruko
