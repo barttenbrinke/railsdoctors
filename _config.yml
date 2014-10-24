@@ -4,7 +4,7 @@ email: info@railsdoctors.com
 description: >
   Railsdoctors is a boutique software consultancy focusing on
   performance and data collection of Rails application.
-baseurl: "/railsdoctors" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://railsdoctors.com" # the base hostname & protocol for your site
 
 # Build settings
